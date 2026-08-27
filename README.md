@@ -148,6 +148,22 @@ to booking.
 
 ![Customer Service Chat workflow in n8n](images/wf-07-customer-service-chat.png)
 
+### 8 — Knowledge Base Ingest
+
+Loads the approved clinic knowledge base into the vector store used by workflow
+7. Old points are cleared before ingest so re-running never produces duplicate
+chunks, and the source of truth stays a reviewed content file, not the workflow.
+
+![Knowledge Base Ingest workflow in n8n](images/wf-08-knowledge-base-ingest.png)
+
+### 9 — Appointment Reminders
+
+Runs daily at 09:00 and finds next-day appointments that are not cancelled and
+have no confirmation response yet. Sends an email with three one-time links —
+confirm, cancel, or request reschedule — handled by the website.
+
+![Appointment Reminders workflow in n8n](images/wf-09-appointment-reminders.png)
+
 ### 10 — Manager Agent
 
 Owner-only Telegram bot. Questions are classified by topic, the relevant CRM
