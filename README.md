@@ -1,32 +1,4 @@
-# Alona Makarov
-
-### AI & Automation | Business Process Automation
-
-Building practical AI/automation systems with n8n, Airtable, APIs and AI agents.
-
-20 years background in accounting.
-
-**Focus:** accounting automation, operational workflows and SMB solutions.
-
----
-
-## How I Think
-
-I start by mapping real operational workflows to identify where automation
-creates value and where human judgment must remain.
-
-- **Focus on what costs money:** I target manual handoffs, bottlenecks, and
-  failure points that cause real business losses.
-- **No invented data:** if a fact isn't verified, the system never treats it
-  as true.
-- **Every automation needs a fallback path:** explicit error handling and a
-  clear way for a human to step in.
-
----
-
-## Project
-
-### Clinic Operations Automation
+# Clinic Operations Automation
 
 A full lead-to-appointment automation system covering lead intake, client
 management, booking, reminders, customer support, and failure recovery.
@@ -34,6 +6,9 @@ management, booking, reminders, customer support, and failure recovery.
 Built solo the complete system: workflow architecture, website, admin
 application, CRM structure, n8n automations, RAG customer-service assistant,
 reliability mechanisms, and access controls.
+
+Built by [Alona Makarov](https://github.com/Makal-web) — AI & Automation |
+Business Process Automation.
 
 ---
 
